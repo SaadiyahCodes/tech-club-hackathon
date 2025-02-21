@@ -41,8 +41,20 @@ body {
     margin-right: 10px;
 }
 
+/* Chat Info */
+.chat-info {
+    display: flex;
+    flex-direction: column;
+}
+
 .chat-name {
     font-weight: bold;
+    font-size: 16px;
+}
+
+.chat-region {
+    font-size: 12px;
+    color: gray;
 }
 
 /* Chat Box */
