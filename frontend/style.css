@@ -53,8 +53,17 @@ body {
 }
 
 .chat-region {
+    display: flex;
+    align-items: center;
     font-size: 12px;
     color: gray;
+    gap: 5px;
+}
+
+.flag-icon {
+    width: 16px;
+    height: 12px;
+    border-radius: 2px;
 }
 
 /* Chat Box */
